@@ -2,6 +2,10 @@
   "description": "This is a homework from YZU Digital Design and you will get the optimized SOP from K-map.",
   "version": "0.0.1",
   "main": "./lib/karnaugh",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/CYBAI/KarnaughMaps.git"
+  },
   "dependencies": {
     "leven": "^1.0.1",
     "lodash": "^2.4.1",
