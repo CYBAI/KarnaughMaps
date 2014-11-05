@@ -17,7 +17,7 @@ stream.on('data', function (data) {
 
 stream.on('end', function () {
     var len = parseInt(inputs[0], 10);
-    for (var _i = 1; _i < len; _i++) {
+    for (var _i = 1; _i <= len; _i++) {
         console.log('#' + _i);
         var kmap = new KarnaughMaps(inputs[_i]);
         kmap.hwFormatToFormal();
